@@ -5,11 +5,11 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/Sharecare/factotum/common/lib"
-	m "github.com/Sharecare/factotum/common/lib/mongo"
-	"github.com/Sharecare/factotum/common/lib/mongo/models"
 	"github.com/mongodb/mongo-go-driver/bson"
 	"github.com/mongodb/mongo-go-driver/mongo"
+	"github.com/thejaredhooper/util/common/lib"
+	m "github.com/thejaredhooper/util/common/lib/mongo"
+	"github.com/thejaredhooper/util/common/lib/mongo/models"
 )
 
 type Application struct {
